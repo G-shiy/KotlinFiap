@@ -1,6 +1,6 @@
 package org.fiap
 
-fun types(){
+fun Types(){
     var universityName: String = "FIAP"
     println(universityName)
     universityName = "Faculdade de Informática e Administração Paulista"
