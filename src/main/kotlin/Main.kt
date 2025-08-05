@@ -1,15 +1,6 @@
 package org.fiap
 
-class Person(val name: String, val age: Int){
-    constructor() :this("Nome Inválido", 0)
-    init {
-        println("Person created with name $name and age $age")
-    }
-}
-
-
-
-fun main(args: Array<String>) {
+fun main() {
     println("Hello, World!")
 
     println("Tipos")
@@ -17,7 +8,10 @@ fun main(args: Array<String>) {
     types()
 
     println("Classes")
-    var person = Person("John", 32)
-    println("${person} ${person.name} ${person.age}")
+    val person = Person("John", 32)
+    println("$person ${person.name} ${person.age}")
+    person.name = "Robert"
+    println("$person ${person.name} ${person.age}")
+
 
 }
