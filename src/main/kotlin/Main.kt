@@ -21,6 +21,6 @@ fun main() {
     Nullable()
     println("##########################################################")
 
-    println("Colections & Arrays")
-
+    println("Collections & Arrays")
+    Collections()
 }
